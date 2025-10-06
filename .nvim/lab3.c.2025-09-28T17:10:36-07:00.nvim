@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int MAX_SIZE = 5;
+
+int main(){ 
+  char *history[MAX_SIZE];
+  char *input;
+  size_t len = 0;
+
+  while (true) do {
+    printf("Enter input: ");
+    getline(&input, &len, stdin);
+
+
+  }
+
+
+  return 0;
+}
+
